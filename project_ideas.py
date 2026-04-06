@@ -23,7 +23,7 @@ def generate_project_ideas(resume_text, skills):
         skill_list = ", ".join(skills)
 
         prompt = f"""
-Based on the following resume and skills, suggest 3 impactful real-world project ideas.
+Based on the following resume and skills, suggest an impactful real-world project ideas.
 
 Requirements:
 - Must solve real-world problems
